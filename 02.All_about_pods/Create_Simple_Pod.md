@@ -23,7 +23,7 @@ kubectl get pods -n kube-system
 ## Create a sample busybox pod (dry-run)
 Dry-run is way to see how the command will behave without actually executing the command
 ```
-kubectl run test-busybox --image=busybox:latest --command -- sleep 3600 --dry-run=client
+kubectl run test-busybox --image=busybox:latest --dry-run=client --command -- sleep 3600 
 ```
 
 ## Create a sample busybox pod 
